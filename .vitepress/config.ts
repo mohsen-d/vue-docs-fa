@@ -45,6 +45,7 @@ const nav: ThemeConfig['nav'] = [
         items: [
           { text: 'همکاران', link: '/partners/' },
           { text: 'تم‌ها', link: '/ecosystem/themes' },
+          { text: 'UI Components', link: 'https://ui-libs.vercel.app/' },
           {
             text: 'گواهی‌نامه',
             link: 'https://certification.vuejs.org/?ref=vuejs-nav'
@@ -204,9 +205,9 @@ export const sidebar: ThemeConfig['sidebar'] = {
           text: 'رجیستر کردن (Registration)',
           link: '/guide/components/registration'
         },
-        { text: 'Props', link: '/guide/components/props' },
+        { text: 'پراپ‌ها', link: '/guide/components/props' },
         {
-          text: 'رویداد های کامپوننت (Events)',
+          text: 'رویداد‌های کامپوننت (Events)',
           link: '/guide/components/events'
         },
         { text: 'v-model', link: '/guide/components/v-model' },
